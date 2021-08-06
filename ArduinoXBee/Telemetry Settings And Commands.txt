@@ -1,0 +1,24 @@
+Device IDs
+S1 S0
+L  L = Rocket (RKT)
+L  H = Payload 1 (PL1)
+H  L = Payload 2 (PL2)
+H  H = Payload 3 (PL3)
+S1 = Pin 3, S0 = Pin 2
+L = Gnd, H = 3.3V
+
+Telemetry Commands:
+[1] Start Telemetry System, Wake GPS Modules From Sleep
+[9] Stop Telemetry System
+[0] Stop Telemetry System, Put GPS Modules To Sleep
+
+Telemetry Settings:
+[p] Wake GPS Modules From Sleep
+[q] Put GPS Modules To Sleep
+[h] Enable High Speed Serial Display (1Hz)
+[l] Enable Low Speed Serial Display (0.25Hz)
+[r] Reset GPS Modules
+[\] Reset MCU
+[.] Display Data Cheatsheet
+
+*Note* Make sure to send commands as ASCII characters, NOT as numbers!
